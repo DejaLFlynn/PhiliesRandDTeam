@@ -21,6 +21,7 @@ const Salary = () => {
   let displayPlayers = player.map((play) => {
     return (
       <div className="userGridImageContainer" key={play.id}>
+          
         <h3>Name:{play.name}</h3>
         <p>Salary: {play.salary}</p>
       </div>
